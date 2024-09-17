@@ -1,0 +1,60 @@
+.imageph {
+    width: 100px;
+    border-radius: 50%;
+    border: 6px solid #efb0c9;
+}
+
+
+body {    
+    background: linear-gradient(blue, pink);
+    color: #ffffff;
+    text-align: center;
+}
+
+h1, h2, h4 {
+    text-shadow: 0px 0px 1px black;
+}
+
+#bday {
+    text-shadow: 0px 0px 1px black;
+}
+
+#age {
+    text-shadow: 0px 0px 1px black;
+    padding: 10px;
+    border: 0.5px solid yellow;
+    border-radius: 1px;
+}
+
+#year {
+    text-shadow: 0px 0px 1px black;
+}
+
+/*Group CSS Selector: This selects h1, h2 h4 in the code above and the "commas ," are very important when using Group selectors*/
+
+
+.control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgsecond {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid yellow;
+    border-radius: 10px;
+    background-image: url("image/bday.jpg");
+    background-size: cover;
+}
+
+#first:hover {
+    background-image: url("chineke.jpg");
+    
+}
+
+#second:hover {
+    background-image: url("Uchenna.jpg");
+    
+}
